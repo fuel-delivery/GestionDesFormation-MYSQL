@@ -4,11 +4,7 @@ Module Mdl_Principale
         Dim Connexion As New MySqlConnection("server='***********';
         user='*************';
         password='************';
-        database='dbformation'")
-        '    Dim Connexion As New MySqlConnection("server='localhost';
-        'user='root';
-        'password='loveyouCR77@';
-        'database='dbformation'")
+        database='**************'")
         Public Function Open() As MySqlConnection
             Try
                 Connexion.Open()
