@@ -1,9 +1,9 @@
 ﻿Imports MySql.Data.MySqlClient
 Module Mdl_Principale
     Public Class DbConnection
-        Dim Connexion As New MySqlConnection("server='85.10.205.173';
-        user='dsi2_2021';
-        password='dsi2_20202021';
+        Dim Connexion As New MySqlConnection("server='***********';
+        user='*************';
+        password='************';
         database='dbformation'")
         '    Dim Connexion As New MySqlConnection("server='localhost';
         'user='root';
